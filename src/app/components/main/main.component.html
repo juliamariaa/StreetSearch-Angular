@@ -1,0 +1,32 @@
+<div class="container__main">
+    <div class="container__title">
+        <h3>Send us zip code</h3>
+    </div>
+
+    <div class="container__search">
+        <div class="search__cep">
+            
+            <input 
+            type="number" 
+            [(ngModel)]="valueInput" 
+            (input)="limitInputLength($event)" 
+            placeholder="Enter your zip code here">
+            <br>
+            <small>Allowed only 8 numbers, no characters.</small>
+            <br>
+            <button type="button" (click)="GenerateResults()">GENERATE NOW</button>
+        </div>
+    
+        <div class="search__results">
+
+            <input type="text" placeholder="{{street}}" disabled>
+            <br>
+            <input type="text" placeholder="{{neighborhood}}" disabled>
+            <br>
+            <input type="text" placeholder="{{city}}" disabled>
+            <br>
+            <input type="text" placeholder="{{state}}" disabled>
+        </div>
+    </div>
+   
+</div>

@@ -1,0 +1,47 @@
+ .card__container{
+    width: 90%;
+    margin:  50px auto; 
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container__header{
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 760px) {
+    .card__container{
+        display: flex;
+        flex-direction: row;
+
+        background-image: url('../../../assets/images/fundo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border-radius: 15px;
+        padding: 20px 20px;
+    }
+
+    .container__header,
+    .container__main{
+        width: 50%;
+    }
+}
+
+
+/* Responsiveness */
+@media screen and (min-width: 1024px) {
+    .card__container{
+        max-width: 1024px;
+    }
+
+    .container__header{
+        width: 60%;
+    }
+    .container__main{
+        width: 40%;
+        margin-right: 30px;
+    }
+}
