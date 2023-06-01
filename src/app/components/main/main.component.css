@@ -33,6 +33,10 @@ input[type=number] {
 
 }
 
+input::placeholder {
+  color: #313030;
+}
+
 .search__cep > small{
   font-family: Arial, Helvetica, sans-serif;
   color: #b8b6b6;
