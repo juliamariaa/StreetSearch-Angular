@@ -12,7 +12,7 @@
             (input)="limitInputLength($event)" 
             placeholder="Enter your zip code here">
             <br>
-            <small>Allowed only 8 numbers, no characters.</small>
+            <small>{{message}}</small>
             <br>
             <button type="button" (click)="generateResults()">GENERATE NOW</button>
         </div>
