@@ -1,27 +1,41 @@
-# StreetSearchAngular
+<div align="center">
+  <h1>StreetSearch - Angular</h1>
+  
+  <p align="center">
+    Projeto desenvolvido com Angular que utiliza o conceito de services para consumir a API ViaCEP. O objetivo desse projeto é permitir que o usuário insira um número      de CEP e, em resposta, o programa exiba o logradouro, bairro, cidade e estado associados a esse CEP, fornecendo assim informações completas sobre a região              correspondente.
+  </p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+  <br>
+  <br>
+  
+  <h2 align="center">Deploy do Site</h2>
+  
+  <p align="center">
+    O site está disponível em: <a href="https://juliamariaa.github.io/StreetSearch-Angular/" target="_blank">https://juliamariaa.github.io/StreetSearch-Angular//</a>
+  </p>
 
-## Development server
+  <br>
+  <h2 align="center">Screenshots</h2>
+  <br>
+  <h3 align="center">Design Mobile</h3>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  <p align="center">
+    <img src="src/assets/images/imgMobile.png" alt="Imagem do design mobile">
+  </p>
+  <br>
+  <h3 align="center">Design Tablet</h3>
 
-## Code scaffolding
+  <p align="center">
+    <img src="src/assets/images/imgTablet.png" alt="Imagem do design no tablet">
+  </p>
+  <br>
+  <h3 align="center">Design Desktop</h3>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  <p align="center">
+    <img src="src/assets/images/imgDesktop.png" alt="Imagem do design no desktop">
+  </p>
+  <br>
+  <br>
+  <h2 align="center">Desenvolvido por Júlia Maria</h2>
+</div>
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
