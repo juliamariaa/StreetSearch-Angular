@@ -82,7 +82,7 @@ input::placeholder {
 }
 
 
-/* Responsiveness */
+/* Responsividade */
 @media screen and (min-width: 760px){
   .container__main{
     max-width: 350px;

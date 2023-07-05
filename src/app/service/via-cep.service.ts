@@ -14,7 +14,7 @@ export class ViaCEPService {
   constructor(private http: HttpClient) { }
 
   getCEP(zipCode: string): Observable<any> {
-    const paddedZipCode = zipCode.padStart(8, '0'); // Adiciona zero à esquerda se necessário
+    const paddedZipCode = zipCode.padStart(8, '0');
     const urlComplete = `${this.url}${paddedZipCode}/json/`
     return this.http.get<any>(urlComplete)
   }
